@@ -100,4 +100,12 @@ public class Driver {
 		this.url = url;
 	}
 
+	@Override
+	public String toString() {
+		return "Driver [driverId=" + driverId + ", driverRef=" + driverRef + ", number=" + number + ", code=" + code
+				+ ", forename=" + forename + ", surname=" + surname + ", dob=" + dob + ", nationality=" + nationality
+				+ ", url=" + url + "]";
+	}
+
+	
 }
